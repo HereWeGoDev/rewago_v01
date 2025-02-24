@@ -14,7 +14,7 @@ class _ManagerHomeState extends State<ManagerHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: AppColors.kTextColor,
       body:  Padding(
         padding: const EdgeInsets.only(left: 30, right: 5),
         child: Column(
